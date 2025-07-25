@@ -1,106 +1,73 @@
-	<!-- CONTENT-12
-			============================================= -->
-			<section id="content-12" class="content-12 wide-60 content-section division">
-				<div class="container">
+<!-- DESIGN PROCESS SECTION -->
+<section id="design-process" style="padding: 60px 0; background: #fff; text-align: center;">
+  <h2 style="font-size: 36px; font-weight: bold; margin-bottom: 10px;">Our web design process</h2>
 
+  <div class="icons-row" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 40px; margin: 40px 0;">
+    @php
+      $steps = [
+        ['icon' => 'fas fa-users', 'label' => 'Discuss'],
+        ['icon' => 'fas fa-pen-square', 'label' => 'Design'],
+        ['icon' => 'fas fa-cogs', 'label' => 'Build'],
+        ['icon' => 'fas fa-mobile-alt', 'label' => 'Test'],
+        ['icon' => 'fas fa-search', 'label' => 'SEO'],
+        ['icon' => 'fas fa-rocket', 'label' => 'Launch'],
+      ];
+    @endphp
 
-					<!-- SECTION TITLE -->	
-					<div class="row">	
-						<div class="col-lg-10 offset-lg-1">
-							<div class="section-title text-center mb-40">		
+    @foreach ($steps as $step)
+    <div class="process-step" style="display: flex; flex-direction: column; align-items: center; width: 100px;">
+      <div class="icon-circle" style="
+        background-color: #3b6fd3;
+        color: white;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        overflow: hidden;
+      ">
+        <i class="{{ $step['icon'] }} scroll-icon" style="
+          font-size: 24px;
+          transition: transform 1s ease;
+        "></i>
+      </div>
+      <div class="step-label" style="font-weight: bold;">{{ $step['label'] }}</div>
+    </div>
+    @endforeach
+  </div>
 
-								<!-- Title 	-->	
-								<h3 class="h3-md">Work Smarter With Powerful Tools</h3>
+  <div class="content" style="max-width: 900px; margin: auto; padding: 0 20px; text-align: left; font-size: 16px; line-height: 1.6;">
+    <p>To get started, we discuss your business and any ideas you have. We then put together an initial layout to show you and welcome your feedback! Once you are 100% happy, we start turning it into a functioning website.</p>
+    <p>When designing your website, we will keep you informed on progress throughout the web design build.</p>
+    <p>Once we have completed your website, we begin testing it on desktop and mobile devices. We make sure your responsive website loads and displays correctly. Next, we optimise your new website for search engines. Once we’re happy everything is working correctly, we launch your website!</p>
+    <p>The web design services process from start to finish takes around 5 – 7 days or sooner if you have all the information ready in advance.</p>
+    <p>Before we start, we ask for a small deposit with the balance due on completion.</p>
+    <p>Are you ready for a professional website design to showcase your small business online?</p>
 
-								<!-- Text -->	
-								<p class="p-lg">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor primis libero 
-								   tempus, blandit a cursus varius at magna tempor
-								</p>
-									
-							</div>	
-						</div>
-					</div>
+    <a href="#" style="background-color: #3b6fd3; color: white; padding: 12px 25px; border-radius: 30px; text-decoration: none; display: inline-block; margin-top: 30px;">Get started today</a>
+  </div>
+</section>
 
+<!-- ICON ROTATE SCRIPT -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const icons = document.querySelectorAll('.scroll-icon');
 
-					<!-- TEXT BLOCK -->	
-					<div class="row">
-						<div class="col-xl-10 offset-xl-1">
+    function rotateOnScroll() {
+      icons.forEach(icon => {
+        const rect = icon.getBoundingClientRect();
+        const inView = rect.top < window.innerHeight - 100;
 
+        if (inView && !icon.classList.contains('rotated')) {
+          icon.classList.add('rotated');
+          icon.style.transform = 'rotateZ(180deg)';
+        }
+      });
+    }
 
-							<!-- VIDEO PREVIEW -->	
-							<div class="video-preview mb-80 wow fadeInUp" data-wow-delay="0.4s">						
-								<a class="video-popup3" href="https://www.youtube.com/embed/0gv7OC9L2s8">  <!-- Change the link HERE!!! -->	
-
-									<!-- Play Icon --> 							
-									<div class="video-btn bg-orangered">	
-										<div class="video-block-wrapper"><i class="fas fa-play"></i></div>
-									</div>
-
-									<!-- Preview Image -->
-									<img class="img-fluid" src="{{ asset('assets/images/image-12.png') }}" alt="content-image">
-
-								</a>
-					 		</div>	<!-- END VIDEO PREVIEW -->	
-
-
-					 		<!-- CONTENT BOXES -->	
-					 		<div class="content-12-boxes pc-25">
-					 			
-
-					 			<!-- CONTENT BOX #1 -->	
-					 			<div class="cbox-7 pc-25 mb-40 wow fadeInUp" data-wow-delay="0.6s">	
-
-		 							<!-- Icon -->
-									<div class="cbox-7-ico grey-color ico-80"><span class="flaticon-manufacturing"></span></div>
-
-									<!-- Text -->
-									<div class="cbox-7-txt">
-		
-										<!-- Title -->
-										<h5 class="h5-sm">Real Time Customization</h5>
-											
-										<!-- Text -->
-										<p class="grey-color">Porta semper lacus cursus, feugiat primis ultrice and ligula risus auctor
-										   tempus feugiat undo impedit felis undo auctor augue an egestas mauris enim nullam tempor sapien 
-										   gravida donec and pretium ipsum porta justo integer odio velna vitae integer a congue magna ipsam 
-										</p>
-
-									</div>
-
-		 						</div>	<!-- END CONTENT BOX #1 -->	
-
-
-		 						<!-- CONTENT BOX #2 -->	
-					 			<div class="cbox-7 pc-25 mb-40 wow fadeInUp" data-wow-delay="0.8s">	
-
-		 							<!-- Icon -->
-									<div class="cbox-7-ico grey-color ico-80"><span class="flaticon-browser-11"></span></div>
-
-									<!-- Text -->
-									<div class="cbox-7-txt">
-		
-										<!-- Title -->
-										<h5 class="h5-sm">User Data Protection</h5>
-											
-										<!-- Text -->
-										<p class="grey-color">Porta semper lacus cursus, feugiat primis ultrice and ligula risus auctor 
-										   tempus feugiat at felis impedit undo auctor augue an egestas mauris Quaerat sodales sapien 
-										   euismod blandit purus and luctus neque purus sagittis sapien undo sodales congue magna purus 
-										   pretium ligula
-										</p>
-
-									</div>
-
-		 						</div>	<!-- END CONTENT BOX #2 -->	
-
-
-					 		</div>	<!-- END CONTENT BOXES -->	
-
-
-						</div>	
-					</div>	  <!-- END TEXT BLOCK -->		
-
-
-				</div>     <!-- End container -->
-			</section>	<!-- END CONTENT-12 -->	
-
+    window.addEventListener('scroll', rotateOnScroll);
+    rotateOnScroll();
+  });
+</script>

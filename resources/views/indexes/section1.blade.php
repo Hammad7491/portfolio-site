@@ -1,114 +1,44 @@
-	<!-- HERO-5
-			============================================= -->	
-			<section id="hero-5" class="bg-scroll hero-section division">
-				<div class="container white-color">		
+<!-- HERO SECTION START -->
+<section style="background-color: #f2f2fc; padding: 70px 0 0; position: relative; overflow: hidden;">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 0 40px; flex-wrap: wrap;">
 
+        <!-- LEFT TEXT -->
+        <div style="flex: 1 1 52%; min-width: 300px;">
+            <p style="font-size: 16px; color: #666; margin-bottom: 12px;">Building websites since 2001</p>
+            <h3 style="font-size: 35px; font-weight: 700; color: #111; line-height: 1.3; margin-bottom: 20px;">
+                Website Design from only £299
+            </h3>
+            <p style="font-size: 17px; color: #333; max-width: 550px;">
+                We offer affordable web design, fast web hosting and SEO services to small businesses across the UK.
+            </p>
+        </div>
 
-					<!-- HERO CONTENT -->
-					<div class="row d-flex align-items-center">
+        <!-- RIGHT IMAGE WITH FADE-IN -->
+        <div style="flex: 1 1 45%; text-align: right; overflow: hidden;">
+            <img src="{{ asset('assets/images/pic1.webp') }}" 
+                 alt="Website Examples" 
+                 style="max-width: 320px; width: 100%; height: auto; border-radius: 6px; transform: translateX(100px); opacity: 0; transition: transform 1.5s ease, opacity 1.5s ease;"
+                 class="hero-img">
+        </div>
 
+    </div>
 
-						<!-- HERO TEXT -->
-						<div class="col-lg-5">
-							<div class="hero-5-txt wow fadeInRight" data-wow-duration="2.5s" data-wow-delay="0.4s">
+    <!-- ✅ BOTTOM CURVE TOUCHING IMAGE -->
+    <svg viewBox="0 0 1440 220" xmlns="http://www.w3.org/2000/svg" style="display: block; width: 100%;">
+        <path fill="#ffffff" fill-opacity="1"
+              d="M0,160 C360,240 1080,80 1440,160 L1440,320 L0,320 Z">
+        </path>
+    </svg>
+</section>
 
-								<!-- Title -->	
-				 				<h3 class="h3-xl">Treko - is perfect solutions to grow up your business</h3>
-
-				 				<!-- Text -->	
-								<p class="p-xl">Maecenas laoreet augue egestas undo gestas suscipit egestas at congue posuere congue</p>
-
-								<!-- Buttons -->
-								<div class="hero-5-btns">
-
-									<!-- Button -->
-									<a href="#services-5" class="btn btn-yellow tra-white-hover mr-15">Find Out More</a>
-
-									<!-- Button -->
-									<a href="#" class="btn btn-tra-white black-hover">Buy Now - $14.99</a>
-
-								</div>
-
-							</div>  
-						</div>	 <!-- END HERO TEXT -->
-
-
-						<!-- HERO IMAGE -->
-						<div class="col-lg-7">	
-							<div class="hero-5-img wow fadeInLeft" data-wow-duration="2.5s" data-wow-delay="0.4s">				
-								<img class="img-fluid" src="{{ asset('assets/images/hero-5-img.png') }}" alt="hero-image">
-							</div>
-						</div>
-
-
-					</div>	<!-- END HERO CONTENT -->
-
-
-					<!-- HERO BOXES -->
-					<div id="hero-5-boxes">
-						<div class="row">
-
-
-							<!-- HERO BOX #1 -->
-							<div class="col-md-4">
-								<div class="hbox-2 ico-35 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0.4s">	
-
-									<!-- Icon & Title -->
-									<div class="hbox-2-title clearfix">
-										<span class="flaticon-split"></span>
-										<h5 class="h5-sm">Business Strategy</h5>
-									</div>	
-								
-									<!-- Text -->
-									<p>Semper lacus cursus porta feugiat primis ultrice ligula risus auctor tempus magna an dolor
-									   vitae vitae auctor integer laoreet
-									</p>					
-															
-								</div>	
-							</div>
-
-
-							<!-- HERO BOX #2 -->
-							<div class="col-md-4">
-								<div class="hbox-2 ico-35 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0.6s">
-
-									<!-- Icon & Title -->
-									<div class="hbox-2-title clearfix">
-										<span class="flaticon-graph"></span>
-										<h5 class="h5-sm">Growing Up Sales</h5>
-									</div>	
-									
-									<!-- Text -->
-									<p>Semper lacus cursus porta feugiat primis ultrice ligula risus auctor tempus magna an dolor
-									   vitae vitae auctor integer laoreet
-									</p>					
-															
-								</div>	
-							</div>
-
-
-							<!-- HERO BOX #3 -->
-							<div class="col-md-4">							
-								<div class="hbox-2 ico-35 wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="0.8s">
-
-									<!-- Icon & Title -->
-									<div class="hbox-2-title clearfix">
-										<span class="flaticon-analytics"></span>
-										<h5 class="h5-sm">Increase Profits</h5>
-									</div>	
-								
-									<!-- Text -->
-									<p>Semper lacus cursus porta feugiat primis ultrice ligula risus auctor tempus magna an dolor
-									   vitae vitae auctor integer laoreet
-									</p>					
-															
-								</div>	
-							</div>
-
-
-						</div>
-					</div>	<!--END HERO BOXES -->
-
-
-				</div>     <!-- End container --> 
-			</section>	<!-- END HERO-5 -->	
+<!-- Fade-in Animation Script -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const heroImg = document.querySelector('.hero-img');
+        setTimeout(() => {
+            heroImg.style.transform = 'translateX(0)';
+            heroImg.style.opacity = '1';
+        }, 200);
+    });
+</script>
+<!-- HERO SECTION END -->

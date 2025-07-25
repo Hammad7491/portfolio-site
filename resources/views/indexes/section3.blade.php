@@ -1,165 +1,64 @@
+<!-- INCLUDED FEATURES SECTION -->
+<section class="included-section bg-lightgrey py-5">
+    <div class="container">
 
+        <!-- SECTION TITLE -->
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">What's included with our low cost web design?</h2>
+            <p class="lead">
+                We include everything you need to get your business online.
+                Our low cost websites include a custom website design to match your brand and logo.
+                All our websites are search engine friendly with a responsive web design.
+            </p>
+        </div>
 
-			<!-- SERVICES-5
-			============================================= -->
-			<section id="services-5" class="services-5 bg-lightgrey wide-70 services-section division">
-				<div class="container">
+        <!-- GRID: IMAGE + FEATURES -->
+        <div class="row justify-content-center align-items-center">
+            <!-- Image -->
+            <div class="col-lg-6 mb-4 mb-lg-0 text-center" data-aos="fade-right" data-aos-duration="1000">
+                <img src="{{ asset('assets/images/pic2.webp') }}"
+                     alt="Website Preview"
+                     class="img-fluid rounded shadow"
+                     style="max-width: 85%; height: auto;">
+            </div>
 
+            <!-- Features -->
+            <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                <h5 class="mb-3 fw-semibold">Every website we build includes the following:</h5>
+                <ul class="list-unstyled fs-5">
+                    <li>• Responsive design</li>
+                    <li>• Custom domain name</li>
+                    <li>• Web Hosting for 1 year</li>
+                    <li>• 10GB Email address to match your domain</li>
+                    <li>• SSL (https://)</li>
+                    <li>• SEO (Search Engine Optimisation)</li>
+                    <li>• Content Writing</li>
+                    <li>• Logo Design</li>
+                    <li>• GDPR compliant</li>
+                    <li>• No monthly fees</li>
+                    <li>• Support, 7 Days a Week</li>
+                </ul>
 
-					<!-- SECTION TITLE -->	
-					<div class="row">	
-						<div class="col-lg-10 offset-lg-1">
-							<div class="section-title mb-60 text-center">		
+                <a href="#" class="btn btn-primary mt-3 px-4 py-2">
+                    <i class="fa fa-arrow-circle-right me-2"></i> Learn more
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
-								<!-- Title 	-->	
-								<h3 class="h3-md">Core Features That Matters</h3>	
+<!-- WEB DESIGN PRICES SECTION -->
+<section class="pricing-section py-5" style="background: linear-gradient(to top, #e6e6fa, #f5f5ff);">
+    <div class="container text-center">
 
-								<!-- Text -->	
-								<p class="p-lg">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor primis libero 
-								   tempus, blandit a cursus varius at magna tempor
-								</p>
-									
-							</div>	
-						</div>
-					</div>
+        <!-- TITLE -->
+        <h2 class="fw-bold mb-3">Web design prices</h2>
+        <h6 class="text-muted mb-3">Professional, Affordable web design pricing</h6>
 
-
-			 		<!-- SERVICES-5 WRAPPER -->
-			 		<div class="sbox-5-wrapper pc-05">
-			 			<div class="row">
-
-
-		 					<!-- SERVICE BOX #1 -->
-		 					<div class="col-md-6">
-		 						<div class="sbox-5 d-flex align-items-center wow fadeInUp" data-wow-delay="0.4s">
-
-		 							<!-- Icon -->
-									<div class="sbox-5-ico ico-60 steelgrey-color"><span class="flaticon-users"></span></div> 
-
-									<!-- Text -->
-									<div class="sbox-5-txt grey-color">
-										<h6 class="h6-lg">Tempor sapien a 50% gravida donec and ipsum pretium porta a justo velna</h6>
-									</div>
-
-		 						</div>
-		 					</div>	
-
-
-		 					<!-- SERVICE BOX #2 -->
-		 					<div class="col-md-6">
-		 						<div class="sbox-5 d-flex align-items-center wow fadeInUp" data-wow-delay="0.4s">
-
-		 							<!-- Icon -->
-									<div class="sbox-5-ico ico-60 steelgrey-color"><span class="flaticon-split"></span></div>
-
-									<!-- Text -->
-									<div class="sbox-5-txt grey-color">
-										<h6 class="h6-lg">Sapien a gravida donec and impedit at nihil ligula justo integer</h6>
-									</div>
-
-		 						</div>
-		 					</div>
-
-
-		 					<!-- SERVICE BOX #3 -->
-		 					<div class="col-md-6">
-		 						<div class="sbox-5 d-flex align-items-center wow fadeInUp" data-wow-delay="0.6s">
-
-		 							<!-- Icon -->
-									<div class="sbox-5-ico ico-60 steelgrey-color"><span class="flaticon-harddisk-1"></span></div> 
-
-									<!-- Text -->
-									<div class="sbox-5-txt grey-color">
-										<h6 class="h6-lg">Volute turpis dolores ut aliquam quaerat sodales sapien undo pretium</h6>
-									</div>
-
-		 						</div>
-		 					</div>
-
-
-		 					<!-- SERVICE BOX #4 -->
-		 					<div class="col-md-6">
-		 						<div class="sbox-5 d-flex align-items-center wow fadeInUp" data-wow-delay="0.6s">
-
-		 							<!-- Icon -->
-									<div class="sbox-5-ico ico-60 steelgrey-color"><span class="flaticon-browser-4"></span></div>
-
-									<!-- Text -->
-									<div class="sbox-5-txt grey-color">
-										<h6 class="h6-lg">Gravida donec and ipsum pretium a porta sapien and gravida ipsum</h6>
-									</div>
-
-		 						</div>
-		 					</div>
-
-
-		 					<!-- SERVICE BOX #5 -->
-		 					<div class="col-md-6">
-		 						<div class="sbox-5 d-flex align-items-center wow fadeInUp" data-wow-delay="0.8s">
-
-		 							<!-- Icon -->
-									<div class="sbox-5-ico ico-60 steelgrey-color"><span class="flaticon-goal"></span></div>
-
-									<!-- Text -->
-									<div class="sbox-5-txt grey-color">
-										<h6 class="h6-lg">Aliqum mullam blandit a tempor gravida donec undo ipsum porta velna</h6>
-									</div>
-
-		 						</div>
-		 					</div>
-
-
-		 					<!-- SERVICE BOX #6 -->
-		 					<div class="col-md-6">
-		 						<div class="sbox-5 d-flex align-items-center wow fadeInUp" data-wow-delay="0.8s">
-
-		 							<!-- Icon -->
-									<div class="sbox-5-ico ico-60 steelgrey-color"><span class="flaticon-analytics-5"></span></div>
-
-									<!-- Text -->
-									<div class="sbox-5-txt grey-color">
-										<h6 class="h6-lg">Blandit undo tempor sapien gravida donec at ipsum a porta tempor</h6>
-									</div>
-
-		 						</div>
-		 					</div>
-
-
-		 					<!-- SERVICE BOX #7 -->
-		 					<div class="col-md-6">
-		 						<div class="sbox-5 d-flex align-items-center wow fadeInUp" data-wow-delay="1s">
-
-		 							<!-- Icon -->
-									<div class="sbox-5-ico ico-60 steelgrey-color"><span class="flaticon-type"></span></div> 
-
-									<!-- Text -->
-									<div class="sbox-5-txt grey-color">
-										<h6 class="h6-lg">Nemo ipsam an egestas 24K+ volute </h6>
-									</div>
-
-		 						</div>
-		 					</div>
-
-
-		 					<!-- SERVICE BOX #8 -->
-		 					<div class="col-md-6">
-		 						<div class="sbox-5 d-flex align-items-center wow fadeInUp" data-wow-delay="1s">
-
-		 							<!-- Icon -->
-									<div class="sbox-5-ico ico-60 steelgrey-color"><span class="flaticon-email"></span></div> 
-
-									<!-- Text -->
-									<div class="sbox-5-txt grey-color">
-										<h6 class="h6-lg">Dolores donec ipsum pretium 24/7 porta donec and ipsum pretium justo</h6>
-									</div>
-
-		 						</div>
-		 					</div>
-
-
-				 		</div>  <!-- End row -->	
-				 	</div>	<!-- END SERVICES-5 WRAPPER -->
-
-
-			 	</div>	   <!-- End container -->		
-			</section>	<!-- END SERVICES-5 -->	
+        <!-- DESCRIPTION -->
+        <p class="mb-0 fs-6" style="max-width: 700px; margin: 0 auto;">
+            Our web design pricing includes everything you need. No expensive monthly hosting fees or ongoing maintenance fees.
+            We are always keen to help and support small businesses and charities with our cheap web design. Please <a href="#" class="text-primary text-decoration-underline">get in touch</a> to see how we can help you.
+        </p>
+    </div>
+</section>

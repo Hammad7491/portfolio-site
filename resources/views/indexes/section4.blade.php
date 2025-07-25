@@ -1,150 +1,33 @@
+<!-- WHY CHOOSE US SECTION -->
+<section class="why-us-section py-5">
+    <div class="container">
+        <!-- CENTERED HEADING -->
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Why choose us?</h2>
+        </div>
 
-			<!-- CONTENT-3
-			============================================= -->
-			<section id="content-3" class="content-3 wide-60 content-section division">
-				<div class="container">
+        <!-- CONTENT ROW -->
+        <div class="row align-items-center">
+            
+            <!-- TEXT COLUMN -->
+            <div class="col-md-6">
+                <p><a href="#" class="text-primary">Harris Digital</a> are UK web designers, with over 20 years experience in providing website design, SEO and web hosting. We are based in <a href="#" class="text-primary">Hertfordshire</a> and work with businesses all over the UK, creating unique, responsive and search engine friendly websites.</p>
 
+                <p>The majority of the websites in our website design <a href="#" class="text-primary">portfolio</a> cost under £300, so we know a thing or two about affordability.</p>
 
-					<!-- TOP CONTENT -->
-					<div id="c3-top" class="cbox-3 pb-50">
-						<div class="row d-flex align-items-center m-row">
+                <p>We will look after you throughout the whole journey from start to finish. You’ll have a single point of contact, that will work with you to create a website that reflects the core values of your business.</p>
 
+                <p>Our professional web design includes unbeatable support, 7 days a week. A great deal of our work comes from recommendations (see our <a href="#" class="text-primary">reviews</a>). Please <a href="#" class="text-primary">get in touch</a> if you have any questions about our budget web design, hosting or our inexpensive website design services.</p>
+            </div>
 
-							<!-- TEXT BLOCK -->	
-							<div class="col-md-7 col-lg-6 m-bottom">
-								<div class="txt-block left-column pc-35 mb-40 wow fadeInRight" data-wow-delay="0.4s">
+            <!-- IMAGE COLUMN -->
+            <div class="col-md-6 text-center">
+                <img src="{{ asset('assets/images/pic3.webp') }}" 
+                     alt="Why Choose Us" 
+                     class="img-fluid rounded shadow"
+                     style="max-width: 100%; height: auto;">
+            </div>
 
-									<!-- Title -->	
-									<h3 class="h3-sm">Take full advantage of powerful features</h3>
-
-									<!-- Text -->
-									<p class="grey-color">An enim nullam tempor sapien gravida donec pretium ipsum a porta justo 
-									   integer odio velna vitae auctor integer congue undo magna purus pretium ligula rutrum luctus 
-									   ultrice aliquam
-									</p>
-
-									<!-- Small Title -->	
-									<h5 class="h5-xs sm-title">Features Never Stop</h5>
-
-									<!-- Text List -->	
-									<ul class="txt-list grey-color">
-
-										<li class="list-item">
-											<i class="fas fa-genderless"></i>
-											<p>Fringilla risus nec, luctus mauris  orci auctor purus euismod at pretium purus
-						   					   pretium ligula rutrum tempor sapien
-											</p>
-										</li>
-
-										<li class="list-item">
-											<i class="fas fa-genderless"></i>
-											<p>Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales sapien
-						   					   undo pretium purus
-											</p>
-										</li>
-
-									</ul>	<!-- End Text List -->	
-
-								</div>
-							</div>	<!-- END TEXT BLOCK -->	
-
-
-							<!-- IMAGE BLOCK -->
-							<div class="col-md-5 col-lg-6 m-top">
-								<div class="img-block right-column pc-25 mb-40 wow fadeInLeft" data-wow-delay="0.4s">
-									<img class="img-fluid" src="{{ asset('assets/images/image-02.png') }}" alt="content-image">
-								</div>
-							</div>
-
-
-						</div>	  <!-- End row -->	
-					</div>	<!-- END TOP CONTENT -->
-
-
-					<!-- BOTTOM CONTENT -->
-			 		<div id="c3-bottom" class="cbox-3">
-			 			<div class="row d-flex align-items-center">
-
-
-							<!-- IMAGE BLOCK -->
-							<div class="col-md-5 col-lg-6">
-								<div class="img-block left-column pc-25 mb-40 wow fadeInRight" data-wow-delay="0.4s">
-									<img class="img-fluid" src="{{ asset('assets/images/image-07.png') }}" alt="content-image">
-								</div>
-							</div>
-
-
-							<!-- TEXT BLOCK -->	
-							<div class="col-md-7 col-lg-6">
-								<div class="txt-block right-column pc-35 mb-40 wow fadeInLeft" data-wow-delay="0.4s">
-
-									<!-- Title -->	
-									<h3 class="h3-sm">Get more productivity with less effort</h3>
-
-									<!-- Text -->
-									<p class="grey-color">An enim nullam tempor sapien gravida donec pretium ipsum a porta justo 
-									   integer odio velna vitae auctor integer congue undo magna purus pretium ligula rutrum luctus 
-									   ultrice aliquam
-									</p>
-
-									<!-- Option List -->	
-									<ul class="option-list primary-list mt-25"> 
-
-										<!-- List Item #1 -->	
-										<li class="list-box"> 
-											
-											<!-- Icon -->
-					 						<span><i class="fas fa-check"></i></span>
-
-					 						<!-- Text -->
-											<div class="list-box-txt">
-												<p class="grey-color">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor 
-												   primis libero tempus, tempor posuere ligula
-								   		    	</p>
-								   			</div>
-									   	
-										</li>
-
-										<!-- List Item #2 -->	
-										<li class="list-box"> 
-
-											<!-- Icon -->
-					 						<span><i class="fas fa-check"></i></span>
-
-					 						<!-- Text -->
-											<div class="list-box-txt">
-												<p class="grey-color">At sagittis congue augue egestas egestas magna ipsum vitae purus 
-												   ipsum primis diam cubilia at laoreet
-								   		    	</p>
-
-								   			</div>
-									   		
-										</li>
-
-										<!-- List Item #3 -->	
-										<li class="list-box">
-
-											<!-- Icon -->
-					 						<span><i class="fas fa-check"></i></span>
-
-					 						<!-- Text -->
-											<div class="list-box-txt">
-												<p class="grey-color">Semper lacus cursus porta, feugiat primis in ultrice ligula tempus 
-												   auctor ipsum and mauris lectus ipsum
-								   		    	</p>
-								   			</div>
-									   		
-										</li>
-
-									</ul>	<!-- End Option List -->			
-
-								</div>
-							</div>	<!-- END TEXT BLOCK -->	
-
-
-						</div>	  <!-- End row -->	
-			 		</div>	<!-- END BOTTOM CONTENT -->
-
-
-				</div>     <!-- End container -->
-			</section>	<!-- END CONTENT-3 -->
+        </div>
+    </div>
+</section>

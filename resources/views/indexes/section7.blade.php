@@ -1,117 +1,93 @@
+<!-- INCLUDED FEATURES -->
+<section class="included-features bg-light py-5">
+  <div class="container">
 
+    <!-- Section Title -->
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">What's included with every website design</h2>
+      <p class="text-muted">Our affordable web design comes with everything you need.</p>
+    </div>
 
-			<!-- PROCESS-3
-			============================================= -->	
-			<section id="process-3" class="process-3 bg-lightgrey wide-60 process-section division">
-				<div class="container">	
+    <!-- Grid -->
+    <div class="row gy-4">
+      @php
+        $features = [
+          ['icon' => 'fas fa-pen-nib', 'title' => 'Bespoke Web Design', 'desc' => 'A custom built website designed to your specific requirements. We include an unlimited amount of revisions.'],
+          ['icon' => 'fas fa-mobile-alt', 'title' => 'Responsive Web Design', 'desc' => "All of our designs are mobile friendly, so no matter what device your website is being viewed on, it'll look great!"],
+          ['icon' => 'fab fa-wordpress', 'title' => 'CMS', 'desc' => 'You can edit the images and text at any time, with an easy to use Content Management System, or we can do the updates for you.'],
+          ['icon' => 'fas fa-globe', 'title' => 'Domain Name', 'desc' => 'We include a free .co.uk or .com domain with all of our web designs, registered in your name for 12 months.'],
+          ['icon' => 'fas fa-cloud', 'title' => 'Web Hosting', 'desc' => 'Our super fast hosting is 100% SSD and scalable, for ultimate performance and reliability. Included for 12 months.'],
+          ['icon' => 'fas fa-lock', 'title' => 'SSL Certificate (Free)', 'desc' => 'SSL is the standard technology for keeping an internet connection secure and safeguarding any sensitive data.'],
+          ['icon' => 'fas fa-envelope', 'title' => 'Business Email', 'desc' => 'All our web packages include 10GB business mailboxes which will match your domain for that professional look.'],
+          ['icon' => 'fas fa-search', 'title' => 'SEO', 'desc' => 'We optimise your website to increase its visibility when people search for your business using Google, Bing, etc.'],
+          ['icon' => 'fas fa-paper-plane', 'title' => 'Contact Form', 'desc' => 'Receive form submissions instantly by email. The most convenient way for clients to get in touch with you.'],
+          ['icon' => 'fab fa-facebook-f', 'title' => 'Social Media', 'desc' => 'Add social media links on your website to help you grow your followers.'],
+          ['icon' => 'fas fa-map-marker-alt', 'title' => 'Google Map', 'desc' => 'Adding a Google map to your website helps local customers or visitors get directions to your business.'],
+          ['icon' => 'fas fa-headset', 'title' => 'Support', 'desc' => 'We provide unlimited ongoing support and respond to emails normally within a few minutes.']
+        ];
+      @endphp
 
+      @foreach ($features as $feature)
+        <div class="col-md-4 feature-transition">
+          <div class="feature-box h-100">
+            <div class="icon"><i class="{{ $feature['icon'] }}"></i></div>
+            <h5 class="fw-semibold">{{ $feature['title'] }}</h5>
+            <p>{{ $feature['desc'] }}</p>
+          </div>
+        </div>
+      @endforeach
+    </div>
+  </div>
 
-					<!-- SECTION TITLE -->	
-					<div class="row">	
-						<div class="col-lg-10 offset-lg-1">
-							<div class="section-title mb-60 text-center">		
+  <!-- STYLES -->
+  <style>
+    .included-features {
+      background-color: #f1f1fc;
+    }
 
-								<!-- Title 	-->	
-								<h3 class="h3-md">Simple 4-Step Process</h3>	
+    .feature-box {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+      height: 100%;
+      transition: all 0.7s ease;
+    }
 
-								<!-- Text -->	
-								<p class="p-lg">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor primis libero 
-								   tempus, blandit a cursus varius at magna tempor
-								</p>
-									
-							</div>	
-						</div>
-					</div>
+    /* Scroll transition */
+    .feature-transition {
+      opacity: 0;
+      transform: translate(-50px, -50px);
+      transition: all 0.8s ease;
+    }
 
+    .feature-transition.visible {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
 
-					<!-- PROCESS-3 WRAPPER -->
-			 		<div class="pbox-3-wrapper text-center">
-			 			<div class="row">
+    .feature-box .icon {
+      font-size: 30px;
+      color: #4066ff;
+      margin-bottom: 12px;
+    }
+  </style>
 
+  <!-- SCROLL SCRIPT -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const cards = document.querySelectorAll(".feature-transition");
 
-		 					<!-- PROCESS BOX #1 -->
-		 					<div class="col-sm-6 col-lg-3">
-		 						<div class="pbox-3 wow fadeInUp" data-wow-delay="0.4s">
+      const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            obs.unobserve(entry.target); // Run only once
+          }
+        });
+      }, { threshold: 0.2 });
 
-		 							<!-- Step -->		
-		 							<div class="step bg-primary-color white-color"><span>1</span></div>
-
-		 							<!-- Icon -->
-									<div class="pbox-3-ico ico-75 primary-color"><span class="flaticon-server-2"></span></div>
-
-									<!-- Text -->
-									<p class="grey-color">Porta semper lacus a cursus feugiat primis</p>	
-
-		 						</div>
-		 					</div>	<!-- END PROCESS BOX #1 -->
-
-
-		 					<!-- PROCESS BOX #2 -->
-		 					<div class="col-sm-6 col-lg-3">
-		 						<div class="pbox-3 wow fadeInUp" data-wow-delay="0.6s">
-
-		 							<!-- Step -->		
-		 							<div class="step bg-primary-color white-color"><span>2</span></div>
-
-		 							<!-- Icon -->
-									<div class="pbox-3-ico ico-75 primary-color"><span class="flaticon-manufacturing"></span></div>
-
-									<!-- Text -->
-									<p class="grey-color">Porta semper lacus a cursus feugiat primis</p>
-
-		 						</div>
-		 					</div>	<!-- END PROCESS BOX #2 -->	
-
-
-		 					<!-- PROCESS BOX #3 -->
-		 					<div class="col-sm-6 col-lg-3">
-		 						<div class="pbox-3 wow fadeInUp" data-wow-delay="0.8s">
-
-		 							<!-- Step -->		
-		 							<div class="step bg-primary-color white-color"><span>3</span></div>
-
-		 							<!-- Icon -->
-									<div class="pbox-3-ico ico-75 primary-color"><span class="flaticon-browser-8"></span></div>
-
-									<!-- Text -->
-									<p class="grey-color">Porta semper lacus a cursus feugiat primis</p>
-
-		 						</div>
-		 					</div>	<!-- END PROCESS BOX #3 -->
-
-
-		 					<!-- PROCESS BOX #4 -->
-		 					<div class="col-sm-6 col-lg-3">
-		 						<div class="pbox-3 icon-md wow fadeInUp" data-wow-delay="1s">
-
-		 							<!-- Step -->		
-		 							<div class="step bg-primary-color white-color"><span>4</span></div>
-
-		 							<!-- Icon -->
-									<div class="pbox-3-ico ico-75 primary-color"><span class="flaticon-user"></span></div>
-
-									<!-- Text -->
-									<p class="grey-color">Porta semper lacus a cursus feugiat primis</p>										
-
-		 						</div>
-		 					</div>	<!-- END PROCESS BOX #4 -->
-
-
-			 			</div>	   <!-- End row -->	
-			 		</div>	<!-- END PROCESS-3 WRAPPER -->	
-
-
-			 		<!-- PROCESS BUTTON -->
-					<div class="row">
-						<div class="col-md-12">
-							<div class="process-btn text-center wow fadeInUp" data-wow-delay="1s">
-								<h5 class="h5-xs">Ready to grow your business?</h5>
-								<p class="grey-color">Nemo ipsam egestas and volute sodales</p>
-								<a href="#" class="btn btn-primary tra-primary-hover">Start a 14-day Free Trial</a>
-							</div>
-						</div>
-					</div>	
-
-
-			 	</div>	   <!-- End container -->
-			</section>	<!-- END PROCESS-3 -->
+      cards.forEach(card => observer.observe(card));
+    });
+  </script>
+</section>
