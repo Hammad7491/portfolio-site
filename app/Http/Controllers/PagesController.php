@@ -20,6 +20,10 @@ class PagesController extends Controller
     }
 
 
+public function websitePackage()
+{
+    return view('websitePackage');
+}
 
 
 

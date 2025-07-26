@@ -9,6 +9,6 @@ Route::get('/', [PagesController::class, 'index'])
 Route::get('/index', [PagesController::class, 'index'])
          ->name('index');
 
-Route::get('/about', [PagesController::class, 'about'])
-         ->name('about');
+Route::get('/website-packages', [PagesController::class, 'websitePackage'])->name('website.packages');
+
 

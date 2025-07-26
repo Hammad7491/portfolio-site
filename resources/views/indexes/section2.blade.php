@@ -22,7 +22,7 @@
         </div>
 
         <!-- RIGHT SIDEBAR BOX -->
-       <div style="flex: 1 1 35%; min-width: 280px;">
+<div style="flex: 1 1 35%; min-width: 280px;">
   <div class="helpful-links" style="background-color: #f2f2fc; border: 1px solid #ccc; border-radius: 4px; padding: 20px;">
   <h3 style="font-size: 20px; font-weight: 600; margin-bottom: 15px;">Helpful Links</h3>
   <ul style="list-style: disc; padding-left: 20px; margin: 0; color: #222; font-size: 16px; line-height: 1.7;">

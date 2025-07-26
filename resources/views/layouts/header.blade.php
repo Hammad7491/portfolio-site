@@ -11,7 +11,8 @@
         <nav style="flex-grow: 1;">
             <ul style="list-style: none; display: flex; justify-content: flex-end; gap: 30px; margin: 0; padding: 0; font-size: 16px; font-family: sans-serif;">
                 <li><a href="{{ url('/') }}" style="color: black; text-decoration: none;">Home</a></li>
-                <li><a href="{{ url('/packages') }}" style="color: black; text-decoration: none;">Website Packages</a></li>
+                <li><a href="{{ route('website.packages') }}" style="color: black; text-decoration: none;">Website Packages</a></li>
+
                 <li><a href="{{ url('/portfolio') }}" style="color: black; text-decoration: none;">Portfolio</a></li>
                 <li><a href="{{ url('/hosting') }}" style="color: black; text-decoration: none;">Web Hosting</a></li>
                 <li><a href="{{ url('/support') }}" style="color: black; text-decoration: none;">Support</a></li>
