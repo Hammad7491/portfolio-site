@@ -1,143 +1,98 @@
-	<!-- FOOTER-3
-			============================================= -->
-			<footer id="footer-3" class="pt-100 footer division">
-				<div class="container">
+<!-- FOOTER SECTION -->
+<footer class="footer-section py-5" style="background-color: #ffffff;">
+  <div class="container">
+    <div class="row align-items-start">
 
+      <!-- LEFT TEXT -->
+      <div class="col-md-6 mb-4">
+        <p style="line-height: 1.7;">
+          Since 2001, our team has delivered professional and affordable web solutions for startups, non-profits, and educational groups.<br><br>
+          We specialize in budget-friendly and high-impact <a href="#" class="text-primary">WordPress development</a> for businesses across the country.<br><br>
+          Every <a href="#" class="text-primary">website package</a> includes domain, 12-month hosting, SSL, and business-class email addresses.
+        </p>
+      </div>
 
-					<!-- FOOTER CONTENT -->
-					<div class="row">
+      <!-- RIGHT VIDEO -->
+      <div class="col-md-6 mb-4 text-md-end">
+        <iframe width="360" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY"
+          title="YouTube video" frameborder="0" allowfullscreen class="rounded shadow">
+        </iframe>
+      </div>
+    </div>
 
+    <hr>
 
-						<!-- FOOTER INFO -->
-						<div class="col-lg-4">
-							<div class="footer-info mb-40">
+    <!-- FOOTER LINKS -->
+    <div class="row text-start mt-4">
+      <!-- Column 1 -->
+      <div class="col-md-4 mb-3">
+        <h6 class="fw-bold">Information</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="footer-link">Terms & Privacy</a></li>
+          <li><a href="#" class="footer-link">About Our Studio</a></li>
+          <li><a href="#" class="footer-link">Latest Articles</a></li>
+          <li><a href="#" class="footer-link">Our Work</a></li>
+        </ul>
+      </div>
 
-								<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be 
-								displayed (e.g 350 x 82  pixels) -->
-								<img src="{{ asset('assets/images/logo-01.png') }}" width="175" height="41" alt="footer-logo">
+      <!-- Column 2 -->
+      <div class="col-md-4 mb-3">
+        <h6 class="fw-bold">Services</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="footer-link">WordPress Solutions</a></li>
+          <li><a href="#" class="footer-link">Website Bundles</a></li>
+          <li><a href="#" class="footer-link">Cloud Hosting</a></li>
+          <li><a href="#" class="footer-link">Maintenance</a></li>
+        </ul>
+      </div>
 
-								<!-- Text -->	
-								<p class="grey-color mt-25">Aliquam nullam tempor sapien gravida donec congue ipsum a porta justo undo 
-								   velna auctor magna enim laoreet augue an porta auctor 
-								</p>
+      <!-- Column 3 -->
+      <div class="col-md-4 mb-3">
+        <h6 class="fw-bold">Service Areas</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="footer-link">Design in Rawalpindi</a></li>
+          <li><a href="#" class="footer-link">Islamabad Web Services</a></li>
+          <li><a href="#" class="footer-link">Sargodha Solutions</a></li>
+          <li><a href="#" class="footer-link">Lahore Development</a></li>
+          <li><a href="#" class="footer-link">Karachi UI/UX</a></li>
+        </ul>
+      </div>
+    </div>
 
-								<!-- Social Icons -->
-								<div class="footer-socials-links mt-25">
-									<ul class="foo-socials text-center clearfix">
+    <!-- SOCIAL ICONS -->
+    <div class="text-end mt-4">
+      <a href="#" class="btn btn-sm btn-primary me-1"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="btn btn-sm btn-primary me-1"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="btn btn-sm btn-primary"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+</footer>
 
-										<li><a href="#" class="ico-facebook"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="#" class="ico-twitter"><i class="fab fa-twitter"></i></a></li>	
-										<li><a href="#" class="ico-google-plus"><i class="fab fa-google-plus-g"></i></a></li>
-										<li><a href="#" class="ico-tumblr"><i class="fab fa-tumblr"></i></a></li>			
-																																				
-										<!--
-										<li><a href="#" class="ico-behance"><i class="fab fa-behance"></i></a></li>	
-										<li><a href="#" class="ico-dribbble"><i class="fab fa-dribbble"></i></a></li>									
-										<li><a href="#" class="ico-instagram"><i class="fab fa-instagram"></i></a></li>	
-										<li><a href="#" class="ico-linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-										<li><a href="#" class="ico-pinterest"><i class="fab fa-pinterest-p"></i></a></li>								
-										<li><a href="#" class="ico-youtube"><i class="fab fa-youtube"></i></a></li>										
-										<li><a href="#" class="ico-vk"><i class="fab fa-vk"></i></a></li>
-										<li><a href="#" class="ico-yelp"><i class="fab fa-yelp"></i></a></li>
-										<li><a href="#" class="ico-yahoo"><i class="fab fa-yahoo"></i></a></li>
-									    -->	
+<!-- CSS STYLING -->
+<style>
+  .footer-link {
+    display: block;
+    padding: 4px 0;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
 
-									</ul>									
-								</div>	
-							
-							</div>	
-						</div>	
+  .footer-link:hover {
+    color: #007bff;
+    text-decoration: underline;
+    transform: translateX(5px);
+  }
 
+  .footer-section h6 {
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
 
-						<!-- FOOTER LINKS -->
-						<div class="col-md-3 col-lg-2 col-xl-2 offset-xl-1">
-							<div class="footer-links mb-40">
-							
-								<!-- Title -->
-								<h6 class="h6-lg">Products</h6>
+  .btn i {
+    font-size: 16px;
+  }
+</style>
 
-								<!-- Footer List -->
-								<ul class="clearfix grey-color">									
-									<li><p><a href="#">How It Works?</a></p></li>																	
-									<li><p><a href="#">Integrations</a></p></li>
-									<li><p><a href="#">Product Updates</a></p></li>
-									<li><p><a href="#">Our Pricing</a></p></li>							
-								</ul>
-
-							</div>
-						</div>
-
-
-						<!-- FOOTER LINKS -->
-						<div class="col-md-3 col-lg-2">
-							<div class="footer-links mb-40">
-							
-								<!-- Title -->
-								<h6 class="h6-lg">Get in Touch</h6>
-
-								<!-- Footer Links -->
-								<ul class="clearfix grey-color">
-									<li><p><a href="#">About Us</a></p></li>		
-									<li><p><a href="#">Contact Us</a></p></li>	
-									<li><p><a href="#">Career</a></p></li>	
-									<li><p><a href="#">Advertising</a></p></li>	
-								</ul>
-
-							</div>
-						</div>
-
-
-						<!-- FOOTER NEWSLETTER FORM -->
-						<div class="col-md-6 col-lg-4 col-xl-3">
-							<div class="footer-form mb-20">
-
-								<!-- Title -->
-								<h6 class="h6-lg">Subscribe Us:</h6>
-
-								<!-- Text -->	
-								<p class="grey-color mb-20">Stay up to date with our latest news and our new products</p>
-
-								<!-- Newsletter Form Input -->
-								<form class="newsletter-form">
-											
-									<div class="input-group">
-										<input type="email" class="form-control" placeholder="Email Address" required id="s-email">								
-										<span class="input-group-btn">
-											<button type="submit" class="btn primary-color">
-												<i class="far fa-arrow-alt-circle-right"></i>
-											</button>
-										</span>
-									</div>
-
-									<!-- Newsletter Form Notification -->		
-									<label for="s-email" class="form-notification"></label>
-												
-								</form>
-														
-							</div>
-						</div>	<!-- END FOOTER NEWSLETTER FORM -->
-
-
-					</div>	  <!-- END FOOTER CONTENT -->
-
-
-					<!-- BOTTOM FOOTER -->
-					<div class="bottom-footer grey-color">
-						<div class="row d-flex align-items-center">
-
-
-							<!-- FOOTER COPYRIGHT -->
-							<div class="col-md-6">
-								<div class="footer-copyright">
-									<p>&copy; 2009 - 2020 Treko. All Rights Reserved</p>
-								</div>
-							</div>
-
-
-						</div>  <!-- End row -->
-					</div>	<!-- END BOTTOM FOOTER -->
-
-
-				</div>	   <!-- End container -->										
-			</footer>	<!-- END FOOTER-3 -->
-
+<!-- FontAwesome (for social icons, if not loaded elsewhere) -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>

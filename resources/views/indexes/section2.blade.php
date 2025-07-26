@@ -5,41 +5,60 @@
         <!-- LEFT CONTENT -->
         <div style="flex: 1 1 60%; min-width: 320px;">
             <h2 style="font-size: 30px; font-weight: 700; color: #111; margin-bottom: 20px;">
-                Showcase your business with a professional website design
+                Present your business through a professional website
             </h2>
             <p style="font-size: 17px; color: #333; margin-bottom: 20px;">
-                Having a website boosts your credibility, makes it easy for people to find you and gives potential customers vital information about your products and services.
+                A website enhances your trustworthiness, helps people discover your brand, and provides essential details about your offerings.
             </p>
             <p style="font-size: 17px; color: #333; margin-bottom: 20px;">
-                Most people research a business or service online prior to making a purchase decision. If you don’t have a website, your business won’t be found.
+                Most consumers check online for a business or service before deciding to buy. Without a website, your business might not be visible.
             </p>
             <p style="font-size: 17px; color: #333; margin-bottom: 20px;">
-                Getting a professional website for your business doesn’t have to be expensive. We understand that some businesses may not have a large budget to work with. If you are looking for a stunning business website at an affordable price, then our low cost web design is the perfect solution for you.
+                Owning a professionally designed website doesn't have to break the bank. We know many businesses operate with limited budgets. If you're after a visually impressive website at a fair price, our budget-friendly web design is just right for you.
             </p>
             <p style="font-size: 17px; color: #333; margin-bottom: 0;">
-                Harris Digital have been offering affordable web design for over 20 years. Our low prices help small businesses who have a small budget, get a bespoke website design from as little as £299.
+                Harris Digital has been delivering affordable website solutions for more than 20 years. Our competitive rates allow small businesses to get tailor-made websites starting from only £299.
             </p>
         </div>
 
         <!-- RIGHT SIDEBAR BOX -->
-        <div style="flex: 1 1 35%; min-width: 280px;">
-            <div style="background-color: #f2f2fc; border: 1px solid #ccc; border-radius: 4px; padding: 20px;">
-                <h3 style="font-size: 20px; font-weight: 600; margin-bottom: 15px;">Quick Links</h3>
-                <ul style="list-style: disc; padding-left: 20px; margin: 0; color: #222; font-size: 16px; line-height: 1.7;">
-                    <li>What's included with our low cost web design?</li>
-                    <li>Web design prices</li>
-                    <li>Why choose us?</li>
-                    <li>Our services</li>
-                    <li>Website design pages</li>
-                    <li>What's included with every website design</li>
-                    <li>Our web design process</li>
-                    <li>Ready to get started?</li>
-                    <li>What our clients say about our web design</li>
-                    <li><u>Frequently asked questions</u></li>
-                </ul>
-            </div>
-        </div>
+       <div style="flex: 1 1 35%; min-width: 280px;">
+  <div class="helpful-links" style="background-color: #f2f2fc; border: 1px solid #ccc; border-radius: 4px; padding: 20px;">
+  <h3 style="font-size: 20px; font-weight: 600; margin-bottom: 15px;">Helpful Links</h3>
+  <ul style="list-style: disc; padding-left: 20px; margin: 0; color: #222; font-size: 16px; line-height: 1.7;">
+    <li><a href="#package">What’s part of our budget web design package?</a></li>
+   
+    <li><a href="#us">Reasons to choose us</a></li>
+    <li><a href="#our-services">What we offer</a></li>
+    <li><a href="#design-pages">Website content sections</a></li>
+    <li><a href="#standard-package">What comes standard with each website</a></li>
+    <li><a href="#design-process">Our design workflow</a></li>
+    <li><a href="#get-started">Ready to begin?</a></li>
+    
+    <li><a href="#faqs">Common questions answered</a></li>
+  </ul>
+</div>
+
+</div>
+
 
     </div>
+
+    <style>
+        html {
+  scroll-behavior: smooth;
+}
+
+.helpful-links a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .helpful-links a:hover {
+    text-decoration: underline;
+  }
+
+    </style>
 </section>
 <!-- SHOWCASE SECTION END -->

@@ -4,10 +4,10 @@
     
     <!-- Title -->
     <div class="text-center mb-4">
-      <h2 class="fw-bold">Helping your business grow</h2>
+      <h2 class="fw-bold">Supporting your business growth</h2>
       <p class="px-lg-5 mt-3 fs-5 text-muted">
-        Every website we build includes search engine optimisation. Our affordable SEO services for small businesses, are designed to allow startup or small businesses to rank above their competitors on Google and other search engines. With our great value 
-        <a href="#" class="text-primary">web design services</a> and affordable website design for small businesses, we can help you grow your business online.
+        Every website we create comes with built-in SEO. Our cost-effective SEO services are tailored to help startups and small businesses outperform competitors on Google and other search platforms. With our affordable 
+        <a href="#" class="text-primary">web design solutions</a> and small business-friendly pricing, we’re here to help you succeed online.
       </p>
     </div>
 
@@ -26,7 +26,7 @@
 
     <!-- Bottom Text -->
     <div class="text-center mt-4">
-      <h5 class="fw-bold">Get hassle free cheap web design for your small business – 100% satisfaction guarantee.</h5>
+      <h5 class="fw-bold">Enjoy stress-free, affordable website design for your business – backed by our 100% satisfaction guarantee.</h5>
     </div>
   </div>
 </section>

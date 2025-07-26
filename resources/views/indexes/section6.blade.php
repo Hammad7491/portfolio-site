@@ -2,9 +2,10 @@
 <section id="design-pages" class="py-5" style="background-color: #f9f9f9;">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-bold">Website design pages</h2>
+            <h2 class="fw-bold">Pages included in your website</h2>
             <p class="text-muted w-75 mx-auto">
-                When it comes to creating your website, it's totally up to you what pages it contains. However, for search engines to effectively search and index your website, we recommend the following pages as part of your design.
+                You can choose which pages to include in your website — it’s completely your decision. 
+                However, for better visibility in search engine results, we suggest including the following pages as part of your site.
             </p>
         </div>
 
@@ -15,7 +16,7 @@
                     <i class="fas fa-home fa-2x text-primary me-3"></i>
                     <div>
                         <h5 class="fw-bold">Home Page</h5>
-                        <p class="mb-0 text-muted">This is the front page visitors land on when they visit your domain name.</p>
+                        <p class="mb-0 text-muted">This is the main landing page that users see when they visit your website.</p>
                     </div>
                 </div>
             </div>
@@ -26,7 +27,7 @@
                     <i class="fas fa-id-card-alt fa-2x text-primary me-3"></i>
                     <div>
                         <h5 class="fw-bold">About</h5>
-                        <p class="mb-0 text-muted">Your about page is where you tell visitors more about your business and what you stand for.</p>
+                        <p class="mb-0 text-muted">Use this page to share your business story, values, and what makes you unique.</p>
                     </div>
                 </div>
             </div>
@@ -37,7 +38,7 @@
                     <i class="fas fa-cogs fa-2x text-primary me-3"></i>
                     <div>
                         <h5 class="fw-bold">Products/Services</h5>
-                        <p class="mb-0 text-muted">You should have a page with details about the products you sell or the services you provide.</p>
+                        <p class="mb-0 text-muted">This section highlights what you offer, including product or service details.</p>
                     </div>
                 </div>
             </div>
@@ -48,7 +49,7 @@
                     <i class="fas fa-briefcase fa-2x text-primary me-3"></i>
                     <div>
                         <h5 class="fw-bold">Portfolio</h5>
-                        <p class="mb-0 text-muted">A portfolio page is where you would showcase examples of your work.</p>
+                        <p class="mb-0 text-muted">Showcase your past work or case studies to demonstrate your expertise.</p>
                     </div>
                 </div>
             </div>
@@ -59,7 +60,7 @@
                     <i class="fas fa-phone-alt fa-2x text-primary me-3"></i>
                     <div>
                         <h5 class="fw-bold">Contact</h5>
-                        <p class="mb-0 text-muted">This is where you tell visitors how to contact you. Include a map to show your location and a form.</p>
+                        <p class="mb-0 text-muted">Let users know how to reach you. Include a contact form and a map if possible.</p>
                     </div>
                 </div>
             </div>
@@ -70,7 +71,7 @@
                     <i class="fas fa-file-alt fa-2x text-primary me-3"></i>
                     <div>
                         <h5 class="fw-bold">Legal Page</h5>
-                        <p class="mb-0 text-muted">This is where you tell website visitors how you will process their personal data and comply with GDPR.</p>
+                        <p class="mb-0 text-muted">Share details about how you handle personal data and follow GDPR rules.</p>
                     </div>
                 </div>
             </div>

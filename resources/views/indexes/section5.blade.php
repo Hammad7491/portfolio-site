@@ -1,14 +1,14 @@
 <!-- OUR SERVICES SECTION WITH ANIMATION FROM TOP LEFT & TOP RIGHT -->
-<section id="our-services" class="py-5 bg-light">
+<section id="our-services" class="py-5 bg-light" id="offer">
     <div class="container">
 
         <!-- Section Title -->
         <div class="text-center mb-5">
-            <h2 class="fw-bold">Our services</h2>
+            <h2 class="fw-bold">What we offer</h2>
             <p class="text-muted mx-auto" style="max-width: 850px;">
-                We are a low cost web design company and specialize in affordable website design for small businesses across the UK. 
-                With over 20 years experience in website design and development, our <strong>website design services</strong> provide 
-                a cost-effective solution. Our data centre hosts 1000’s of websites for businesses in the UK.
+                We specialize in low-cost website design, tailored for small businesses throughout the UK. 
+                With more than 20 years of expertise in web development, our <strong>web design solutions</strong> deliver 
+                budget-friendly results. Our UK-based data centre supports thousands of business websites.
             </p>
         </div>
 
@@ -19,9 +19,9 @@
                 <div class="card h-100 shadow-sm p-4 border-0 rounded-4">
                     <div class="d-flex align-items-start mb-3">
                         <i class="fas fa-laptop-code fa-2x text-primary me-3"></i>
-                        <h5 class="fw-bold mb-0">Website Design Packages</h5>
+                        <h5 class="fw-bold mb-0">Complete Web Design Packages</h5>
                     </div>
-                    <p>Our packages include everything needed for most clients. We also offer custom designs if required.</p>
+                    <p>Our packages cover all essentials for most clients. Custom design options are also available.</p>
                 </div>
             </div>
 
@@ -30,9 +30,9 @@
                 <div class="card h-100 shadow-sm p-4 border-0 rounded-4">
                     <div class="d-flex align-items-start mb-3">
                         <i class="fab fa-wordpress fa-2x text-primary me-3"></i>
-                        <h5 class="fw-bold mb-0">WordPress Web Design</h5>
+                        <h5 class="fw-bold mb-0">WordPress Website Development</h5>
                     </div>
-                    <p>Most websites we build are in WordPress. Great for both brochure sites and eCommerce. Starts from £299.</p>
+                    <p>We mainly use WordPress, ideal for brochure-style or online store websites. Starting at just £299.</p>
                 </div>
             </div>
 
@@ -41,9 +41,9 @@
                 <div class="card h-100 shadow-sm p-4 border-0 rounded-4">
                     <div class="d-flex align-items-start mb-3">
                         <i class="fas fa-cart-plus fa-2x text-primary me-3"></i>
-                        <h5 class="fw-bold mb-0">Ecommerce Web Design</h5>
+                        <h5 class="fw-bold mb-0">Online Store Web Design</h5>
                     </div>
-                    <p>Low cost ecommerce design packages to help you sell online professionally.</p>
+                    <p>Affordable ecommerce packages to help you build a professional online shop.</p>
                 </div>
             </div>
 
@@ -52,9 +52,9 @@
                 <div class="card h-100 shadow-sm p-4 border-0 rounded-4">
                     <div class="d-flex align-items-start mb-3">
                         <i class="fas fa-server fa-2x text-primary me-3"></i>
-                        <h5 class="fw-bold mb-0">Fast UK Web Hosting</h5>
+                        <h5 class="fw-bold mb-0">Reliable UK Hosting</h5>
                     </div>
-                    <p>Secure, fast cloud hosting with SSL and no monthly fees. Included in most design packages.</p>
+                    <p>Fast, secure hosting with SSL and no monthly charges. Included in many of our plans.</p>
                 </div>
             </div>
 
@@ -63,9 +63,9 @@
                 <div class="card h-100 shadow-sm p-4 border-0 rounded-4">
                     <div class="d-flex align-items-start mb-3">
                         <i class="fas fa-headset fa-2x text-primary me-3"></i>
-                        <h5 class="fw-bold mb-0">Web Support</h5>
+                        <h5 class="fw-bold mb-0">Ongoing Website Support</h5>
                     </div>
-                    <p>We support domain setup, plugin updates, and help you rank on Google.</p>
+                    <p>We assist with domain setup, plugin maintenance, and improving your search rankings.</p>
                 </div>
             </div>
 
@@ -74,9 +74,9 @@
                 <div class="card h-100 shadow-sm p-4 border-0 rounded-4">
                     <div class="d-flex align-items-start mb-3">
                         <i class="fas fa-search-dollar fa-2x text-primary me-3"></i>
-                        <h5 class="fw-bold mb-0">Web Design and SEO</h5>
+                        <h5 class="fw-bold mb-0">Design + SEO Optimization</h5>
                     </div>
-                    <p>All sites are SEO-friendly and designed to help small businesses rank higher in search engines.</p>
+                    <p>All websites are built with SEO best practices to help your business rank better online.</p>
                 </div>
             </div>
         </div>

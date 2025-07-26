@@ -4,12 +4,12 @@
 
         <!-- LEFT TEXT -->
         <div style="flex: 1 1 52%; min-width: 300px;">
-            <p style="font-size: 16px; color: #666; margin-bottom: 12px;">Building websites since 2001</p>
+            <p style="font-size: 16px; color: #666; margin-bottom: 12px;">Creating websites since 2001</p>
             <h3 style="font-size: 35px; font-weight: 700; color: #111; line-height: 1.3; margin-bottom: 20px;">
                 Website Design from only £299
             </h3>
             <p style="font-size: 17px; color: #333; max-width: 550px;">
-                We offer affordable web design, fast web hosting and SEO services to small businesses across the UK.
+                We provide cost-effective web design, reliable web hosting, and SEO services for small businesses throughout the UK.
             </p>
         </div>
 

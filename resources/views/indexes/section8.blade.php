@@ -1,15 +1,15 @@
 <!-- DESIGN PROCESS SECTION -->
 <section id="design-process" style="padding: 60px 0; background: #fff; text-align: center;">
-  <h2 style="font-size: 36px; font-weight: bold; margin-bottom: 10px;">Our web design process</h2>
+  <h2 style="font-size: 36px; font-weight: bold; margin-bottom: 10px;">How we design your website</h2>
 
   <div class="icons-row" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 40px; margin: 40px 0;">
     @php
       $steps = [
-        ['icon' => 'fas fa-users', 'label' => 'Discuss'],
-        ['icon' => 'fas fa-pen-square', 'label' => 'Design'],
-        ['icon' => 'fas fa-cogs', 'label' => 'Build'],
+        ['icon' => 'fas fa-users', 'label' => 'Consult'],
+        ['icon' => 'fas fa-pen-square', 'label' => 'Plan'],
+        ['icon' => 'fas fa-cogs', 'label' => 'Develop'],
         ['icon' => 'fas fa-mobile-alt', 'label' => 'Test'],
-        ['icon' => 'fas fa-search', 'label' => 'SEO'],
+        ['icon' => 'fas fa-search', 'label' => 'Optimise'],
         ['icon' => 'fas fa-rocket', 'label' => 'Launch'],
       ];
     @endphp
@@ -39,12 +39,12 @@
   </div>
 
   <div class="content" style="max-width: 900px; margin: auto; padding: 0 20px; text-align: left; font-size: 16px; line-height: 1.6;">
-    <p>To get started, we discuss your business and any ideas you have. We then put together an initial layout to show you and welcome your feedback! Once you are 100% happy, we start turning it into a functioning website.</p>
-    <p>When designing your website, we will keep you informed on progress throughout the web design build.</p>
-    <p>Once we have completed your website, we begin testing it on desktop and mobile devices. We make sure your responsive website loads and displays correctly. Next, we optimise your new website for search engines. Once we’re happy everything is working correctly, we launch your website!</p>
-    <p>The web design services process from start to finish takes around 5 – 7 days or sooner if you have all the information ready in advance.</p>
-    <p>Before we start, we ask for a small deposit with the balance due on completion.</p>
-    <p>Are you ready for a professional website design to showcase your small business online?</p>
+    <p>We begin by understanding your business, goals, and ideas. Next, we create a draft layout and gather your feedback. Once you're completely satisfied, we begin building the live website.</p>
+    <p>Throughout the design phase, we keep you updated so you’re always in the loop as your site takes shape.</p>
+    <p>After development, we test the site on both desktop and mobile to ensure everything looks great and functions smoothly. Then we perform SEO optimization so your website ranks better. Once everything’s ready, we take it live.</p>
+    <p>Most projects are completed within 5 to 7 days — or faster if you’ve prepared your content in advance.</p>
+    <p>To start the process, we just ask for a small deposit. The remaining balance is due once your site is ready to launch.</p>
+    <p>Want a professionally designed website to represent your small business online?</p>
 
     <a href="#" style="background-color: #3b6fd3; color: white; padding: 12px 25px; border-radius: 30px; text-decoration: none; display: inline-block; margin-top: 30px;">Get started today</a>
   </div>
