@@ -1,5 +1,5 @@
 <!-- ECOMMERCE WEBSITE PACKAGES SECTION -->
-<section style="background-color: #f2f2fc; padding: 80px 0;">
+<section style="background-color: #f2f2fc; padding: 80px 0;" id="comerence">
   <div style="max-width: 1200px; margin: 0 auto; display: flex; gap: 40px; justify-content: space-between; align-items: center; flex-wrap: wrap;">
 
     <!-- LEFT CONTENT -->

@@ -1,5 +1,5 @@
 <!-- COMPARE WEBSITE DESIGN PACKAGES SECTION -->
-<section style="background-color: #FFFFFF; padding: 80px 0;">
+<section style="background-color: #FFFFFF; padding: 80px 0;" id="compare">
   <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
 
     <!-- HEADING -->

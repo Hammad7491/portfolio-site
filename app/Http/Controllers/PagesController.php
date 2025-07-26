@@ -26,5 +26,12 @@ public function websitePackage()
 }
 
 
+public function webhosting()
+{
+    return view('webhosting');
+}
+
+
+
 
 }

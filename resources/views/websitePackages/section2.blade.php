@@ -5,47 +5,47 @@
     <!-- LEFT CONTENT -->
     <div style="flex: 1 1 60%; min-width: 320px;">
       <h2 style="font-size: 30px; font-weight: 700; color: #111; margin-bottom: 20px;">
-        Present your business through a professional website
+        Present Your Business with a Professional Website
       </h2>
       <p style="font-size: 17px; color: #333; margin-bottom: 20px;">
-        A website enhances your trustworthiness, helps people discover your brand, and provides essential details about your offerings.
+        A website helps build trust, makes your brand visible, and offers essential information about your services and products.
       </p>
       <p style="font-size: 17px; color: #333; margin-bottom: 20px;">
-        Most consumers check online for a business or service before deciding to buy. Without a website, your business might not be visible.
+        Today, most consumers search online for businesses or services before making a purchase. Without an online presence, your business might be overlooked.
       </p>
       <p style="font-size: 17px; color: #333; margin-bottom: 20px;">
-        Owning a professionally designed website doesn't have to break the bank. We know many businesses operate with limited budgets. If you're after a visually impressive website at a fair price, our budget-friendly web design is just right for you.
+        You don’t have to break the bank for a professionally designed website. We understand that many businesses work with limited budgets. Our affordable web design solutions provide you with a stunning website at an excellent price.
       </p>
       <p style="font-size: 17px; color: #333; margin-bottom: 0;">
-        Harris Digital has been delivering affordable website solutions for more than 20 years. Our competitive rates allow small businesses to get tailor-made websites starting from only £299.
+        With over 20 years of experience, Harris Digital specializes in affordable websites, allowing small businesses to get customized websites starting from only £299.
       </p>
     </div>
 
-   <!-- TABLE OF CONTENTS BOX -->
-<div style="flex: 1 1 35%; min-width: 280px;">
-  <div style="background-color: #e9eafc; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); overflow: hidden;">
-    
-    <!-- TOC HEADER -->
-    <div onclick="toggleContent()" style="cursor: pointer; padding: 16px 20px; border-bottom: 1px solid #ccc; display: flex; align-items: center; justify-content: space-between;">
-      <h3 style="font-size: 18px; font-weight: 600; margin: 0;">Table of contents</h3>
-      <span id="toc-arrow" style="font-size: 18px;">&#9650;</span> <!-- up arrow -->
-    </div>
+    <!-- TABLE OF CONTENTS BOX -->
+    <div style="flex: 1 1 35%; min-width: 280px;">
+      <div style="background-color: #e9eafc; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); overflow: hidden;">
+        
+        <!-- TOC HEADER -->
+        <div onclick="toggleContent()" style="cursor: pointer; padding: 16px 20px; border-bottom: 1px solid #ccc; display: flex; align-items: center; justify-content: space-between;">
+          <h3 style="font-size: 18px; font-weight: 600; margin: 0;">Table of Contents</h3>
+          <span id="toc-arrow" style="font-size: 18px;">&#9650;</span> <!-- up arrow -->
+        </div>
 
-    <!-- TOC LIST -->
-    <div id="toc-list-home" style="padding: 16px 20px; display: block;">
-      <ul style="list-style: disc; padding-left: 20px; margin: 0; font-size: 16px; line-height: 1.8; color: #111;">
-        <li><a href="#package" style="text-decoration: none; color: #111;">What’s part of our budget web design package?</a></li>
-        <li><a href="#us" style="text-decoration: none; color: #111;">Reasons to choose us</a></li>
-        <li><a href="#our-services" style="text-decoration: none; color: #111;">What we offer</a></li>
-        <li><a href="#design-pages" style="text-decoration: none; color: #111;">Website content sections</a></li>
-        <li><a href="#standard-package" style="text-decoration: none; color: #111;">What comes standard with each website</a></li>
-        <li><a href="#design-process" style="text-decoration: none; color: #111;">Our design workflow</a></li>
-        <li><a href="#get-started" style="text-decoration: none; color: #111;">Ready to begin?</a></li>
-        <li><a href="#faqs" style="text-decoration: none; color: #111;">Common questions answered</a></li>
-      </ul>
+        <!-- TOC LIST -->
+        <div id="toc-list-home" style="padding: 16px 20px; display: block;">
+          <ul style="list-style: none; padding: 0; margin: 0; font-size: 16px; line-height: 1.8; color: #111;">
+            <li><a href="#startup" class="toc-link">Small Business Website Packages</a></li>
+            <li><a href="#business" class="toc-link">Business Website Packages</a></li>
+            <li><a href="#cms" class="toc-link">CMS web design packages</a></li>
+            <li><a href="#comerence" class="toc-link">Ecommerce website packages</a></li>
+            <li><a href="#compare" class="toc-link">Compare website design packages</a></li>
+            <li><a href="#web" class="toc-link">Web design package features</a></li>
+            <li><a href="#get" class="toc-link">Get in touch</a></li>
+            <li><a href="#faq" class="toc-link">Frequently Asked Questions</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
   </div>
 </section>
@@ -64,16 +64,18 @@
     border: 1px solid #ccc;
   }
 
-  .table-of-contents a {
+  .toc-link {
     color: #222;
     text-decoration: none;
     font-weight: 500;
-    transition: all 0.2s ease-in-out;
+    display: block;
+    padding: 6px 0;
+    transition: all 0.3s ease;
   }
 
-  .table-of-contents a:hover {
-    text-decoration: underline;
+  .toc-link:hover {
     color: #007bff;
+    text-decoration: underline;
   }
 </style>
 
@@ -92,4 +94,3 @@
     }
   }
 </script>
-

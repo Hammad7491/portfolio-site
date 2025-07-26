@@ -1,5 +1,5 @@
 <!-- WEB DESIGN PACKAGE FEATURES SECTION -->
-<section style="background-color: #f2f2fc; padding: 80px 0;">
+<section style="background-color: #f2f2fc; padding: 80px 0;" id="web">
   <div style="max-width: 1200px; margin: 0 auto; display: flex; gap: 40px; justify-content: space-between; align-items: center; flex-wrap: wrap; text-align: center;">
     <h2 style="width: 100%; font-size: 30px; font-weight: 700; color: #111; margin-bottom: 40px;">
       WEB DESIGN PACKAGE FEATURES
