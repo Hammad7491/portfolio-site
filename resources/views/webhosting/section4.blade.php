@@ -3,7 +3,7 @@
   <div style="max-width: 1200px; margin: 0 auto; padding: 0 40px; display: flex; gap: 40px; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
     
     <!-- LEFT CONTENT -->
-    <div style="flex: 1 1 60%; min-width: 320px;">
+    <div style="flex: 1 1 100%; min-width: 320px; text-align: center;">
       <h2 style="font-size: 30px; font-weight: 700; color: #fff; margin-bottom: 20px;">
         Sustainable Web Hosting Powered by 100% Renewable Energy
       </h2>
@@ -13,11 +13,6 @@
       <p style="font-size: 17px; color: #fff; margin-bottom: 20px;">
         Our cloud hosting platform automatically adjusts resources based on demand, ensuring your website gets the performance it needs while saving energy when demand is low.
       </p>
-    </div>
-
-    <!-- RIGHT IMAGE -->
-    <div style="flex: 1 1 35%; min-width: 320px;">
-      <img src="your-image-path.jpg" alt="Green Hosting" style="width: 100%; border-radius: 6px;">
     </div>
 
   </div>

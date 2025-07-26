@@ -31,6 +31,16 @@ public function webhosting()
     return view('webhosting');
 }
 
+public function support()
+{
+    return view('support');
+}
+
+public function contactus()
+{
+    return view('contactus');
+}
+
 
 
 

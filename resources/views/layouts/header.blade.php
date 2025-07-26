@@ -16,7 +16,7 @@
                 <li><a href="{{ url('/portfolio') }}" style="color: black; text-decoration: none;">Portfolio</a></li>
                 <li><a href="{{ url('/webhosting') }}" style="color: black; text-decoration: none;">Web Hosting</a></li>
                 <li><a href="{{ url('/support') }}" style="color: black; text-decoration: none;">Support</a></li>
-                <li><a href="{{ url('/contact') }}" style="color: black; text-decoration: none;">Contact Us</a></li>
+                <li><a href="{{ url('/contactus') }}" style="color: black; text-decoration: none;">Contact Us</a></li>
             </ul>
         </nav>
 

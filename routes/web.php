@@ -13,6 +13,13 @@ Route::get('/website-packages', [PagesController::class, 'websitePackage'])
 ->name('website.packages');
 
 
-Route::get('/webhosting', [PagesController::class, 'webhosting'])->name('webhosting');
+Route::get('/webhosting', [PagesController::class, 'webhosting'])
+->name('webhosting');
 
 
+Route::get('/support', [PagesController::class, 'support'])
+->name('support');
+
+
+Route::get('/contactus', [PagesController::class, 'contactus'])
+->name('contactus');
