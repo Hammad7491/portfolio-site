@@ -46,7 +46,7 @@
     <p>To start the process, we just ask for a small deposit. The remaining balance is due once your site is ready to launch.</p>
     <p>Want a professionally designed website to represent your small business online?</p>
 
-    <a href="#" style="background-color: #3b6fd3; color: white; padding: 12px 25px; border-radius: 30px; text-decoration: none; display: inline-block; margin-top: 30px;">Get started today</a>
+    <a href="{{ route('contactus') }}" style="background-color: #3b6fd3; color: white; padding: 12px 25px; border-radius: 30px; text-decoration: none; display: inline-block; margin-top: 30px;">Get started today</a>
   </div>
 </section>
 

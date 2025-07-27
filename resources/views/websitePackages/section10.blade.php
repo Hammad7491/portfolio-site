@@ -9,7 +9,7 @@
     </p>
     
     <!-- Contact Button -->
-    <a href="your-contact-page-link" class="btn btn-primary mt-4 px-5 py-2" style="font-size: 1.1rem; background-color: #4e73df; color: white; border-radius: 5px; text-decoration: none;">
+    <a href="{{ route('contactus') }}" class="btn btn-primary mt-4 px-5 py-2" style="font-size: 1.1rem; background-color: #4e73df; color: white; border-radius: 5px; text-decoration: none;">
       Contact us
     </a>
     

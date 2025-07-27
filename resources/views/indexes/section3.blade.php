@@ -47,7 +47,7 @@
                     <li class="mb-2">• 7-day support service</li>
                 </ul>
 
-                <a href="#" class="btn btn-primary mt-3 px-4 py-2">
+                <a href="#standard-package" class="btn btn-primary mt-3 px-4 py-2">
                     <i class="fa fa-arrow-circle-right me-2"></i> Learn more
                 </a>
             </div>

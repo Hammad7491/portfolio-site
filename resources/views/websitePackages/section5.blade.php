@@ -47,7 +47,7 @@
         While our standard WordPress websites meet the needs for most businesses, we do offer custom WordPress web design packages and pricing.
         <br>Please get in touch to discuss a bespoke solution for your new business website.
       </p>
-      <a href="#contact" style="display: inline-block; margin-top: 20px; padding: 10px 25px; font-size: 16px; background-color: #3366cc; color: white; border-radius: 6px; text-decoration: none;">Contact us</a>
+      <a href="{{ route('contactus') }}" style="display: inline-block; margin-top: 20px; padding: 10px 25px; font-size: 16px; background-color: #3366cc; color: white; border-radius: 6px; text-decoration: none;">Contact us</a>
     </div>
   </div>
 

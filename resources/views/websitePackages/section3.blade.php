@@ -54,7 +54,7 @@
           Get your new business online in just a couple of days.
         </p>
 
-        <a href="#contact" class="btn btn-primary mt-3 px-4 py-2" style="border-radius: 30px; background-color: #3366cc;">
+        <a href="{{ route('contactus') }}" class="btn btn-primary mt-3 px-4 py-2" style="border-radius: 30px; background-color: #3366cc;">
           Get in touch
         </a>
       </div>

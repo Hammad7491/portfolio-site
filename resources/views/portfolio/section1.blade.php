@@ -19,7 +19,7 @@
     </p>
 
     <!-- Button -->
-    <a href="#contact" style="
+    <a href="{{ route('contactus') }}" style="
       display: inline-block;
       background: white;
       color: #333;

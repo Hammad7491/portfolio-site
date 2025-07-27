@@ -13,7 +13,7 @@
     </p>
 
     <!-- Call to Action Button -->
-    <a href="#contact" class="btn btn-primary" style="background-color: #007bff; color: white; padding: 12px 30px; border-radius: 30px; font-size: 18px; text-decoration: none;">
+    <a href="{{ route('contactus') }}" class="btn btn-primary" style="background-color: #007bff; color: white; padding: 12px 30px; border-radius: 30px; font-size: 18px; text-decoration: none;">
       Get in touch
     </a>
   </div>

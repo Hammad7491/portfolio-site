@@ -13,7 +13,7 @@
     </p>
 
     <!-- CTA Button -->
-    <a href="#package" class="btn btn-primary mt-4 px-5 py-2" style="font-size: 1.1rem; background-color: #007bff; border: none; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); transition: background-color 0.3s;">
+    <a href="#get" class="btn btn-primary mt-4 px-5 py-2" style="font-size: 1.1rem; background-color: #007bff; border: none; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); transition: background-color 0.3s;">
       Get Started Now
     </a>
   </div>

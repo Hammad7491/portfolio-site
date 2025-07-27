@@ -1,5 +1,5 @@
 <!-- SHOWCASE SECTION START -->
-<section style="background-color:#F2F2FC; padding: 80px 0;">
+<section style="background-color:#F2F2FC; padding: 80px 0;"id="get">
   <div style="max-width: 1200px; margin: 0 auto; padding: 0 40px; display: flex; gap: 40px; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
 
     <!-- LEFT CONTENT -->

@@ -32,7 +32,7 @@
       </p>
 
       <p style="margin-top: 20px;">
-        If you have any other questions about our affordable website packages, feel free to <a href="#contact">contact us</a> for further information.
+        If you have any other questions about our affordable website packages, feel free to <a href="{{ route('contactus') }}">contact us</a> for further information.
       </p>
     </div>
   </div>

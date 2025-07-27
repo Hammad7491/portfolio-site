@@ -45,7 +45,7 @@
           Our great value business web design packages are the perfect solution for new businesses.
         </p>
 
-        <a href="#contact" class="btn btn-primary mt-3">Get in touch</a>
+        <a href="{{ route('contactus') }}" class="btn btn-primary mt-3">Get in touch</a>
       </div>
 
       <!-- RIGHT IMAGE WITH TRANSITION -->

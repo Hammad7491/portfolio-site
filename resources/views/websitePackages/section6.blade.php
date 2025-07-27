@@ -43,7 +43,7 @@
         Get your eCommerce business online today with our affordable web design packages. Start selling in just a couple of days!
       </p>
       
-      <a href="#" class="btn btn-primary mt-4 px-5 py-2" style="font-size: 1.1rem;">
+      <a href="{{ route('contactus') }}" class="btn btn-primary mt-4 px-5 py-2" style="font-size: 1.1rem;">
         Start my project
       </a>
     </div>
