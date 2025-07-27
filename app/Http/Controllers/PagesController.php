@@ -42,6 +42,12 @@ public function contactus()
 }
 
 
+public function portfolio()
+{
+    return view('portfolio');
+}
+
+
 
 
 }

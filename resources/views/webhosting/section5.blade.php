@@ -1,115 +1,78 @@
 <!-- WORDPRESS HOSTING SECTION START -->
-<section style="background-color: #ffffff; padding: 80px 0;">
-  <div style="max-width: 1200px; margin: 0 auto; padding: 0 40px; text-align: center;">
-    
+<section id="wordpress-hosting" class="py-5" style="background-color: #ffffff;">
+  <div class="container text-center">
+
     <!-- WordPress Logo -->
-    <img src="{{ asset('assets/images/pic28.png') }}" alt="WordPress Logo" style="width: 150px; margin-bottom: 40px;">
-    
-    <!-- LEFT CONTENT -->
-    <div>
-      <h2 style="font-size: 30px; font-weight: 700; color: #111; margin-bottom: 20px;">
-        WEBSITE HOSTING OPTIMIZED FOR WORDPRESS
-      </h2>
-      <p style="font-size: 17px; color: #333; margin-bottom: 20px;">
-        WordPress is the most widely used CMS worldwide, trusted by over 40% of websites globally. It’s known for its customizability, making it ideal for everything from blogs to complex e-commerce platforms.
-      </p>
+    <img src="{{ asset('assets/images/pic28.png') }}" alt="WordPress Logo" class="img-fluid mb-4" style="width: 150px;">
 
-      <h4 style="font-size: 20px; font-weight: 600; margin-top: 40px; color: #333;">Key Features</h4>
-      
-      <!-- Key Features Grid -->
-      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 20px;">
-        <div class="key-feature" style="background-color: #f8f9fa; border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); opacity: 0; transform: translateY(30px); transition: all 0.3s ease;">
-          <div style="font-size: 40px; color: #3366cc; text-align: center; margin-bottom: 15px;">
-            <i class="fas fa-cogs"></i>
+    <!-- Headline -->
+    <h2 class="fw-bold mb-3" style="font-size: 30px; color: #111;">WEBSITE HOSTING OPTIMIZED FOR WORDPRESS</h2>
+    <p class="fs-6 text-muted mb-5" style="max-width: 800px; margin: auto;">
+      WordPress is the most widely used CMS worldwide, trusted by over 40% of websites globally. It’s known for its customizability, making it ideal for everything from blogs to complex e-commerce platforms.
+    </p>
+
+    <!-- Key Features Title -->
+    <h4 class="fw-semibold mb-4" style="font-size: 20px; color: #333;">Key Features</h4>
+
+    <!-- Features Grid -->
+    <div class="row g-4">
+      @php
+        $features = [
+          [
+            'icon' => 'fas fa-cogs',
+            'color' => '#3366cc',
+            'title' => 'Specialized Hosting for WordPress',
+            'desc'  => 'Optimized infrastructure specifically built for WordPress websites to ensure reliability and performance.'
+          ],
+          [
+            'icon' => 'fas fa-tachometer-alt',
+            'color' => '#ff6f61',
+            'title' => 'Speed and Security',
+            'desc'  => 'Fast loading speeds and top-notch security features to keep your WordPress site safe and optimized.'
+          ],
+          [
+            'icon' => 'fas fa-sync-alt',
+            'color' => '#36b9cc',
+            'title' => 'Automatic WordPress Updates',
+            'desc'  => 'We keep your WordPress core updated automatically to ensure that your website stays secure and up to date.'
+          ],
+          [
+            'icon' => 'fas fa-shield-alt',
+            'color' => '#1cc88a',
+            'title' => 'Secure UK Data Centers',
+            'desc'  => 'Our UK-based data centers provide an extra layer of security and reliability for your WordPress site.'
+          ],
+          [
+            'icon' => 'fas fa-headset',
+            'color' => '#e74a3b',
+            'title' => 'Expert UK-Based Support',
+            'desc'  => 'Get reliable support from experts who understand WordPress hosting inside and out, available when you need it.'
+          ],
+        ];
+      @endphp
+
+      @foreach($features as $index => $feature)
+        <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="{{ 100 * $index }}">
+          <div class="bg-light rounded shadow p-4 h-100">
+            <div class="mb-3" style="font-size: 40px; color: {{ $feature['color'] }};">
+              <i class="{{ $feature['icon'] }}"></i>
+            </div>
+            <h5 class="fw-semibold" style="font-size: 18px; color: #333;">{{ $feature['title'] }}</h5>
+            <p class="text-muted fs-6">{{ $feature['desc'] }}</p>
           </div>
-          <h5 style="font-size: 18px; font-weight: 600; color: #333; text-align: center; margin-bottom: 10px;">
-            Specialized Hosting for WordPress
-          </h5>
-          <p style="font-size: 16px; color: #555; text-align: center;">
-            Optimized infrastructure specifically built for WordPress websites to ensure reliability and performance.
-          </p>
         </div>
-
-        <div class="key-feature" style="background-color: #f8f9fa; border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); opacity: 0; transform: translateY(30px); transition: all 0.3s ease;">
-          <div style="font-size: 40px; color: #ff6f61; text-align: center; margin-bottom: 15px;">
-            <i class="fas fa-tachometer-alt"></i>
-          </div>
-          <h5 style="font-size: 18px; font-weight: 600; color: #333; text-align: center; margin-bottom: 10px;">
-            Speed and Security
-          </h5>
-          <p style="font-size: 16px; color: #555; text-align: center;">
-            Fast loading speeds and top-notch security features to keep your WordPress site safe and optimized.
-          </p>
-        </div>
-
-        <div class="key-feature" style="background-color: #f8f9fa; border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); opacity: 0; transform: translateY(30px); transition: all 0.3s ease;">
-          <div style="font-size: 40px; color: #36b9cc; text-align: center; margin-bottom: 15px;">
-            <i class="fas fa-sync-alt"></i>
-          </div>
-          <h5 style="font-size: 18px; font-weight: 600; color: #333; text-align: center; margin-bottom: 10px;">
-            Automatic WordPress Updates
-          </h5>
-          <p style="font-size: 16px; color: #555; text-align: center;">
-            We keep your WordPress core updated automatically to ensure that your website stays secure and up to date.
-          </p>
-        </div>
-      </div>
-
-      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 20px;">
-        <div class="key-feature" style="background-color: #f8f9fa; border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); opacity: 0; transform: translateY(30px); transition: all 0.3s ease;">
-          <div style="font-size: 40px; color: #1cc88a; text-align: center; margin-bottom: 15px;">
-            <i class="fas fa-shield-alt"></i>
-          </div>
-          <h5 style="font-size: 18px; font-weight: 600; color: #333; text-align: center; margin-bottom: 10px;">
-            Secure UK Data Centers
-          </h5>
-          <p style="font-size: 16px; color: #555; text-align: center;">
-            Our UK-based data centers provide an extra layer of security and reliability for your WordPress site.
-          </p>
-        </div>
-
-        <div class="key-feature" style="background-color: #f8f9fa; border-radius: 8px; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); opacity: 0; transform: translateY(30px); transition: all 0.3s ease;">
-          <div style="font-size: 40px; color: #e74a3b; text-align: center; margin-bottom: 15px;">
-            <i class="fas fa-headset"></i>
-          </div>
-          <h5 style="font-size: 18px; font-weight: 600; color: #333; text-align: center; margin-bottom: 10px;">
-            Expert UK-Based Support
-          </h5>
-          <p style="font-size: 16px; color: #555; text-align: center;">
-            Get reliable support from experts who understand WordPress hosting inside and out, available when you need it.
-          </p>
-        </div>
-      </div>
-
-      <h4 style="font-size: 20px; font-weight: 600; margin-top: 40px; color: #333;">Hosting Tailored for WordPress</h4>
-      <p style="font-size: 17px; color: #333;">
-        We offer a hosting environment designed specifically for WordPress. Our platform includes advanced load balancing, SSD storage, superior caching, and robust database management to guarantee excellent speed and reliability.
-      </p>
-      <p style="font-size: 17px; color: #333; margin-top: 20px;">
-        As your WordPress site grows, our hosting solution scales to ensure it continues to perform at its best, regardless of traffic spikes.
-      </p>
+      @endforeach
     </div>
+
+    <!-- Hosting Tailored -->
+    <h4 class="fw-semibold mt-5" style="font-size: 20px; color: #333;">Hosting Tailored for WordPress</h4>
+    <p class="fs-6 text-muted mx-auto" style="max-width: 800px;">
+      We offer a hosting environment designed specifically for WordPress. Our platform includes advanced load balancing, SSD storage, superior caching, and robust database management to guarantee excellent speed and reliability.
+    </p>
+    <p class="fs-6 text-muted mt-3 mx-auto" style="max-width: 800px;">
+      As your WordPress site grows, our hosting solution scales to ensure it continues to perform at its best, regardless of traffic spikes.
+    </p>
 
   </div>
 </section>
 <!-- WORDPRESS HOSTING SECTION END -->
-
-<!-- ANIMATION ON SCROLL SCRIPT -->
-<script>
-  // Scroll animation for key features
-  const keyFeatures = document.querySelectorAll('.key-feature');
-
-  const observer = new IntersectionObserver((entries, observer) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.style.opacity = 1;
-        entry.target.style.transform = "translateY(0)";
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.3 });
-
-  keyFeatures.forEach(feature => {
-    observer.observe(feature);
-  });
-</script>

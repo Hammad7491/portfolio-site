@@ -175,6 +175,21 @@
   AOS.init();
 </script>
 
+<!-- AOS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  // Disable AOS on screens smaller than 768px
+  if (window.innerWidth >= 768) {
+      AOS.init();
+  } else {
+      // Remove all AOS attributes on mobile
+      document.querySelectorAll('[data-aos]').forEach(el => {
+          el.removeAttribute('data-aos');
+          el.removeAttribute('data-aos-duration');
+          el.removeAttribute('data-aos-delay');
+      });
+  }
+</script>
 
 
 	</body>

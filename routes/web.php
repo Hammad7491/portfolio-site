@@ -23,3 +23,8 @@ Route::get('/support', [PagesController::class, 'support'])
 
 Route::get('/contactus', [PagesController::class, 'contactus'])
 ->name('contactus');
+
+
+
+Route::get('/portfolio', [PagesController::class, 'portfolio'])
+->name('portfolio');
