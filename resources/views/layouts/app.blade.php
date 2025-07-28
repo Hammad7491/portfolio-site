@@ -106,7 +106,7 @@
 
 		<!-- PRELOADER SPINNER
 		============================================= -->	
-		<div id="loader-wrapper">
+		{{-- <div id="loader-wrapper">
 			<div id="loading">
 				<div class="cssload-loader">
 					<div class="cssload-ball cssload-ball-1"></div>
@@ -115,7 +115,7 @@
 					<div class="cssload-ball cssload-ball-4"></div>
 				</div>
 			</div>
-		</div>
+		</div> --}}
 
 
 
