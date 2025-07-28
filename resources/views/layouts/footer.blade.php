@@ -50,11 +50,11 @@
       <div class="col-md-4 mb-3">
         <h6 class="fw-bold">Service Areas</h6>
         <ul class="list-unstyled">
-          <li><a href="#" class="footer-link">Design in Rawalpindi</a></li>
-          <li><a href="#" class="footer-link">Islamabad Web Services</a></li>
-          <li><a href="#" class="footer-link">Sargodha Solutions</a></li>
-          <li><a href="#" class="footer-link">Lahore Development</a></li>
-          <li><a href="#" class="footer-link">Karachi UI/UX</a></li>
+          <li><a href="#" class="footer-link">Design in Lincolnshire</a></li>
+          <li><a href="#" class="footer-link">East Midlands Web Services</a></li>
+          <li><a href="#" class="footer-link">London Business Solutions</a></li>
+          <li><a href="#" class="footer-link">Norfolk Development</a></li>
+          <li><a href="#" class="footer-link">Birmingham UI/UX</a></li>
         </ul>
       </div>
     </div>
